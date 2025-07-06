@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Medium.ttf);
+ }
+.general{
+    background-color: #424242;
+    color: white;
+    padding: 18px 14px;
+    font-size: 13px;
+    font-family:  Tahoma ;
+    border-radius: 5px;
+    
+}
+.first{
+    height: 55px;
+    position: relative;
+    right: 4px;
+}
+.first::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.rs{
+    background-color: #424242;
+    padding: 15px 14px;
+    color: white;
+    position:relative;
+    right: 7.9px;
+}
+.second-header{
+    display: flex;
+        /* padding: 20px 40px; */
+    
+    
+        /* width: 100%;  */
+        align-items: center;
+        height: 100px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        
+    
+}
+
+
+.second-main{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.second-ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    
+}
+
+
+.list-item{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.second-ul li{
+    list-style-type: none;
+
+    
+}
+.second-ul li a {
+    color: black;
+    text-decoration: none;
+    border: 0 solid #e5e7eb;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 13px;
+    border-radius: 8px;
+}
+.last-li{
+    background-color: #8DC63F;
+    color: white !important;
+    border: none;
+    border-radius: 3px;
+    
+}
+.fig {
+    width: 100%;
+}
